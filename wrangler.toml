@@ -4,7 +4,7 @@ compatibility_date = "2025-04-20"   # 建议用当前最新日期
 
 [[kv_namespaces]]
 binding = "img_url"           # 这是你在代码中访问它的变量名
-id = "img_url"        # 填入刚才复制的那串 ID
+id = "03f443c34baf40e2ab171732bcf85479"        # 填入刚才复制的那串 ID
 
 [[r2_buckets]]
 binding = "img_r2"
