@@ -1,0 +1,7 @@
+pages_build_output_dir = "./"   # ← 先用这个最常见的，后面教你确认
+name = "cloudflare-imgbed"
+compatibility_date = "2025-04-20"   # 建议用当前最新日期
+
+[[r2_buckets]]
+binding = "img_r2"
+bucket_name = "img-r2"
