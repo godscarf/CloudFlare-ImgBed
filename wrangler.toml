@@ -12,5 +12,4 @@ bucket_name = "img-r2"
 
 [vars]
 BASIC_USER = "komo"
-BASIC_PASS = "107530"
 AUTH_CODE = "komo"
