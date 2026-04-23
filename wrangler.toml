@@ -1,15 +1,11 @@
-pages_build_output_dir = "./"   # ← 先用这个最常见的，后面教你确认
+pages_build_output_dir = "./" 
 name = "cloudflare-imgbed"
-compatibility_date = "2025-04-20"   # 建议用当前最新日期
+compatibility_date = "2025-04-20"
 
 [[kv_namespaces]]
-binding = "img_url"           # 这是你在代码中访问它的变量名
-id = "03f443c34baf40e2ab171732bcf85479"        # 填入刚才复制的那串 ID
+binding = "img_url"
+id = "03f443c34baf40e2ab171732bcf85479"
 
 [[r2_buckets]]
 binding = "img_r2"
 bucket_name = "img-r2"
-
-[vars]
-BASIC_USER = "komo"
-AUTH_CODE = "komo"
